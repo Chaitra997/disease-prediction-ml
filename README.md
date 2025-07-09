@@ -2,7 +2,7 @@
 
 This project aims to build a predictive machine learning model that can determine whether a patient is likely to have a disease based on clinical features.
 
-## 🧠 What I Did
+## What I Did
 
 - Analyzed and preprocessed patient data (training: 4000 samples, testing: 1000 samples).
 - Ensured **data integrity** by checking for and confirming no missing values.
@@ -13,12 +13,12 @@ This project aims to build a predictive machine learning model that can determin
 - Evaluated model using **ROC-AUC**, **accuracy**, **precision**, **recall**, and **F1 score**.
 - Made predictions on unseen test data and saved results to a CSV file.
 
-## 📊 Dataset Details
+## Dataset Details
 
 - `Disease_train.csv`: 4000 records, includes `patient_id`, 10 numerical features, and `diagnosis` (target).
 - `Disease_test.csv`: 1000 records, includes `patient_id` and 10 numerical features.
 
-## ✅ Results
+## Results
 
 | Metric       | Validation Set | Cross-Validation |
 |--------------|----------------|------------------|
